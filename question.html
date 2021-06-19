@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Select Question</title>
+
+<style>
+	margin : 0;
+	padding : 0;
+
+	.logo{
+		width : 600px;
+		height : 200px;
+		margin : 10px 20px 0 0;
+		float : left;
+		border : soild 2px white;
+	}
+
+	.main {
+		width : 800px;
+		height : 300px;
+		margin : 200px 0 0 600px;
+		font-size : 20px;
+		float:center;
+		font-family : "G마켓 산스 TTF Medium","글꼴";
+	}
+
+	.menu {
+		width : 400px;
+		height : 100px;
+		list-style-type: none;
+		margin: 10px 20px 0 0;
+		float : right;
+		font-family : "G마켓 산스 TTF Medium","글꼴";
+	}
+
+	.menu li {
+		display : inline;
+		font-size : 20px;
+	}
+
+	.main li {
+		display : inline;
+	}
+
+	a {
+		color : white;
+		text-decoration : none;
+	}
+
+	a:visited {
+		color : white;
+	}
+
+	.block {
+		width : 200px;
+		height : 200px;
+		margin : 30px;
+		float : left;
+		border : solid 6px #FFFFFF;
+		font-family : "G마켓 산스 TTF Medium","글꼴";
+	}
+
+	.block1 {
+		width : 200px;
+		height : 200px;
+		margin : 0 30px 30px 30px;
+		float : left;
+		border : solid 6px #FFFFFF;
+		font-family : "G마켓 산스 TTF Medium","글꼴";
+	}
+
+	.설명 {
+		width : 1200px;
+		height : 200px;
+		margin : 30px 0 0 300px;
+		border : solid 3px #FFFFFF;
+		font-size : 25px;
+		overflow: scroll;
+		font-family : "G마켓 산스 TTF Medium","글꼴";
+		line-height : 50px;
+	}
+
+
+	.block img {
+		display : block;
+	}
+
+	.clear{
+		clear : left;
+	}
+
+	.play {
+		margin : 100px 0 0 100px;
+	}
+
+	.imp {
+		margin : 100px 0 0 0;
+		width : 100%;
+		height : 100px;
+		bottom : 0px;
+		background-image : url("설렉트.jpg");
+		/*background-repeat : no-repeat;*/
+		font-size : 40px;
+		border-radius : 20px 20px 20px 20px;
+		font-family : "G마켓 산스 TTF Medium","글꼴";
+		background-size: cover;
+		text-align : center;
+		border : solid 9px white;
+		line-height: 100px;
+	}
+
+	footer{
+           width: 100%;
+           height: 50px;
+           bottom: 0px;
+           background-color: #d0d0d0;
+           text-align: center;
+           float: left;
+           margin-top: 300px;
+           line-height: 50px;
+           font-family : "G마켓 산스 TTF Medium","글꼴";
+       }
+        
+       footer span {
+           color: black;
+           margin-left: 20px;
+           font-weight: bold;
+       }
+
+	
+
+
+</style>
+</head>
+
+<body bgcolor = black style="color:white">
+<audio src = "select.mp3" autoplay loop> 	</audio>
+<header>
+	<img src="logo.jpg" width = "600px" height = "100px">
+	<nav class = "menu">
+		<div>
+			<ul>
+				<li><a href = "index.html"> 메인화면 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; </a></li>
+				<li><a href = 'question.html'> 문제풀기 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;   </a></li>
+				<li><a onclick="alert('문제풀기 창에서 문제를 선택합니다. 그 문제를 푼 뒤, 그 문제의 답을 입력란에 적고 enter키 또는 전송 버튼을 눌러주세요. 정답일경우 정답이라는 메세지가 뜨고, 오답일경우 오답이라는 메세지가 뜹니다. 당신은 모든 문제를 풀 수 있습니까?');" style="cursor:pointer"> 도움말 </a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+	<div class = "imp"> 
+		Select Question Set
+	</div>
+
+<nav class = "play">
+
+	<div class = "block1">
+		<a href = "1-1.html"> <img src = "Q1.jpg" width = "200" height = "200"> </a>
+	</div>
+
+	<div class = "설명">
+		낯선 천장이다. 깨질 듯한 머리, 떨리는 몸. 더불어 무슨 일이 있었던 건지 조금도 기억이 나지 않는다. <br> 일단 자리에서 일어나 주위를 둘러본다. 내가 누워 있었던 침대와 주변을 보건데 이곳은 병실. <br> 나는 정신을 잃고 여기로 오게 된 건가. 일단 상황을 파악하기 위해 침대를 박차고 밖으로 걸어 나갔다. <br> <br> 너무 오래 누워 있기라도 한 걸까. 땅을 디딘 감각이 선명하지 않았다.
+	</div>
+
+
+	<div class = "clear"> </div>
+
+
+	<div class = "block">
+		<a href = "2-1.html"> <img src = "Q2.jpg" width = "200" height = "200"> </a>
+	</div>
+
+	<div class = "설명">
+		소문이 하나 있었다. 산 깊숙한 곳에 위치한 어느 폐허. <br>그 안에는 사람을 조용히 데려가는 귀신이 산다는. 요즘 같은 세상에 정말이지 유치하기 짝이 없다. <br> 이런 일에는 내가 빠질 수가 없지. 나는 카메라를 챙겨들고 택시를 타 소문의 폐허가 있다는 산을 향했다. <br> 핸드폰으로 불을 켜야 겨우 앞이 보일 정도로 어두운 산길. <br> 확실히 귀신이 나와도 전혀 이상할 것 같지 않은 분위기였다. <br> 그리고 도착. 소문대로 당장 무너질 것만 같은 허름한 폐허였다. <br> <br> 자, 그럼 들어가 볼까?
+	</div>
+
+	<div class = "clear"> </div>
+
+ 
+	<div class = "block">
+		<img src = "coming.jpg" width = "200" height = "200">
+	</div>
+
+	<div class = "설명">
+		아직 준비중입니다.
+	</div>
+
+	<div class = "clear"> </div>
+
+
+	<div class = "block">
+		<img src = "coming.jpg" width = "200" height = "200">
+	</div>
+
+	<div class = "설명">
+		아직 준비중입니다.
+	</div>
+</nav>
+
+<footer>
+	<span> 개인정보처리방침 </span>
+	<span> 저작권보호조치 </span>
+	<span> 문제오류신고 </span>
+	<span> 문제제공문의 </span>
+</footer>
+</body>
+</html>

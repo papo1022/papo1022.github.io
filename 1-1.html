@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Set 1 Question 1</title>
+</head>
+
+<style>
+
+	.logo{
+		width : 600px;
+		height : 200px;
+		margin : 10px 20px 0 0;
+		float : left;
+		position : relative;
+	}
+
+	.main {
+		width : 800px;
+		height : 200px;
+		margin : 200px 0 0 600px;
+		font-size : 20px;
+		float:center;
+		font-family : "G마켓 산스 TTF Medium","글꼴";
+		position : relative;
+	}
+
+	.menu {
+		width : 400px;
+		height : 100px;
+		list-style-type: none;
+		margin: 10px 20px 0 0;
+		float : right;
+		font-family : "G마켓 산스 TTF Medium","글꼴";
+		position : relative;
+	}
+
+	.menu li {
+		display : inline;
+		font-size : 20px;
+	}
+
+	.main li {
+		display : inline;
+	}
+
+	a {
+		color : white;
+		text-decoration : none;
+	}
+
+	a:visited {
+		color : white;
+	}
+
+	span a {
+		color : black;
+		text-decoration : none;
+	}
+
+	span a:visited {
+		color : black;
+	}
+
+	.Q{
+		margin : 100px 0 0 0;
+		text-align: center;
+		font-family : "G마켓 산스 TTF Medium","글꼴";
+		position : relative;
+	}
+
+	.Q h2 {
+		font-size : 40px;
+	}
+
+	footer{
+           width: 100%;
+           height: 50px;
+           bottom: 0px;
+           background-color: #d0d0d0;
+           text-align: center;
+           float: left;
+           margin-top: 100px;
+           line-height: 50px;
+       }
+        
+       footer span {
+           color: black;
+           margin-left: 20px;
+           font-weight: bold;
+       }
+
+
+
+</style>
+
+<body bgcolor = black style="color:white">
+<audio src = "start.mp3" autoplay loop></audio>
+<header>
+	<img src="logo.jpg" width = "600px" height = "100px">
+	<nav class = "menu">
+		<div>
+			<ul>
+				<li><a href = "index.html"> 메인화면 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; </a></li>
+				<li><a href = 'question.html'> 문제풀기 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;   </a></li>
+				<li><a onclick="alert('문제풀기 창에서 문제를 선택합니다. 그 문제를 푼 뒤, 그 문제의 답을 입력란에 적고 enter키 또는 전송 버튼을 눌러주세요. 정답일경우 정답이라는 메세지가 뜨고, 오답일경우 오답이라는 메세지가 뜹니다. 당신은 모든 문제를 풀 수 있습니까?');" style="cursor:pointer"> 도움말 </a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+<nav>
+	<div class = "Q">
+		<img src = "문제1.jpg" height = "500" width = "500"> <br>
+		<h2>심해로 가라앉는 색깔들..</h2><br><br>
+		<form>
+			<input type : "text" placeholder = "Number"> <button type : "submit"> Enter </button>
+		</form>
+		<a href="#" onclick="window.open('1-1 s.html','Story','resizable=no width=700 height=600');return false">
+		<br> <br>스토리 보기</a>
+	</div>
+</nav>
+
+<footer>
+	<span> <a> 이전 </a></span>
+	<span> <테스트 모드입니다.> </span> 
+	<span> 코드 :  </span>
+	<span> <테스트 모드입니다.> </span>
+	<span> <a href = "1-2.html"> 다음 </a></span>
+
+</footer>
+
+</body>
+</html>
